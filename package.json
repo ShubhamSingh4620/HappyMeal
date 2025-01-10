@@ -29,6 +29,9 @@
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },
+  "scripts": {
+  "build": "prisma generate && next build"
+},
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/node": "^20",
